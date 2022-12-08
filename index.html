@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+       <audio  id="music">
+    <source src ="https://d6cp9b00-a.akamaihd.net/downloads/ringtones/files/mp3/we-just-pray-for-cars-the-weeknd-english-song-58621.mp3" type ="audio/mpeg">
+</audio>
+  
+ 
+        
+        
+        
+    <h1>Share lyrics</h1>
+    <h5 style="color:white">Tap for more</h5>
+        <div id="container" class="container">
+            <img src="https://i.ibb.co/V9X27fy/The-Weeknd-Starboy.png"><h4>Starboy<h6>The weekend<h6></h4>
+            <div class="lyrics">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A hundred on the dash, get &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;me close to God We don't &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pray for love, we just pray for &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cars House so empty, need a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; centerpiece 20 racks a table, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cut from ebony Cut that ivory &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; into skinny pieces.....</div>
+         <i class="fab fa-spotify"><h6 class="spotify">Spotify</h6></i>
+        </div>
+  <img class="slogo" src="https://i.ibb.co/XzCP0z2/2048px-Instagram-icon.png"><h4 class="ins">Instagram</h4>
+  <h4 class="stories">stories</h4>
+    </body>
+</html>
+<script>
+
+alert("Tap the screen");
+    var music = document.getElementById("music");
+  document.addEventListener("click", function() { 
+  change();
+  music.play();
+  
+  });
+  var color=1;
+function change(){
+var cnt=document.getElementById("container");
+if(color==1){
+color=2;
+ document.body.style.background="#1c1a18";
+ cnt.style.background="#1c1a18";
+} 
+else if(color==2){
+color=3;
+ document.body.style.background="#655b50";
+ cnt.style.background="#655b50";
+} 
+else if(color==3){
+color=4;
+ document.body.style.background="#114556";
+ cnt.style.background="#114556";
+} 
+else if(color==4){
+color=5;
+ document.body.style.background="#2a2c3c";
+ cnt.style.background="#2a2c3c";
+} 
+else if(color==5){
+color=1;
+ document.body.style.background="gray";
+ cnt.style.background="gray";
+} 
+}
+</script>

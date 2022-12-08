@@ -1,0 +1,85 @@
+body {
+    display:grid;
+    place-items:center;
+    background:red;
+    transition:.5s;
+}
+.container{
+    width:80%;
+    height:370px;
+  /*  box-shadow:3px 3px 2px #ddd,
+            -3px -3px 2px #fff;*/
+            box-shadow:3px 3px 3px black,3px 3px 3px black inset;
+    top:150px;
+    position:absolute;
+    border-radius:10px;
+    background-color:red;
+    transition:.3s;
+
+}
+.black{
+  width:100px;
+  height:100px;
+  //  box-shadow:1px 1px 1px black,1px 1px 1px black inset;
+}
+h1{
+    color:white;
+    position:relative;
+    top:1px;
+}
+img{
+    width:30%;
+    height:20%;
+    border-radius:5px;
+    position:relative;
+    top:20px;
+    left:20px;
+}
+h4{
+    position:absolute;
+    top:30px;
+    left:120px;
+    color:white;
+}
+h6{
+    position:absolute;
+    top:43px;
+    left:120px;
+    color:white;
+}
+.lyrics{
+    font-size:20px;
+    position:absolute;
+    top:130px;
+    color:#eee;
+}
+i{
+    position:absolute;
+    top:330px;
+    left:30px;
+    font-size:30px;
+    color:white;
+}
+.spotify{
+    position:relative;
+    top:-70px;
+    left:30px;
+}    
+.slogo{
+    width:13%;
+    height:7%;
+    position:absolute;
+    top:550px;
+    left:160px;
+    border-radius:50px;
+}
+.ins{
+    position:absolute;
+    top:580px;
+    left:150px;
+}
+.stories{
+    position:absolute;
+    top:600px;
+    left:160px;
+}
